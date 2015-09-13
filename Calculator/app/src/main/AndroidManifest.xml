@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.modesteam.calculator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dario"
+        android:label="Calculadario"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="Calculadario" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CalculatorActivity"
+            android:label="Calculadario" >
+        </activity>
+
+    </application>
+
+</manifest>
